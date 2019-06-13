@@ -1,0 +1,86 @@
+{
+  "Config": {
+    "dev": {
+      "protocol": "http://",
+      "domain": "127.0.0.1",
+      "region": "us-west-2",
+      "aws_account": "169679812726",
+      "port": {
+        "user": 6001,
+        "device": 6012,
+        "macdb": 7000,
+        "training": 6017,
+        "email": 6010,
+        "aggregate": 6020,
+        "userportal": 7777        
+      },
+      "name": {
+        "user": "User Manager",
+        "device": "Device Manager",
+        "macdb": "Machines Dashboard",
+        "training": "NILM Training",
+        "email": "Email Manager",
+        "aggregate": "Aggregate Manager",
+        "userportal": "CM User Portal"        
+      },
+      "userRole": {
+        "systemAdmin": "SystemAdmin",
+        "systemUser": "SystemUser",
+        "tenantAdmin": "TenantAdmin",
+        "tenantUser": "TenantUser"
+      },
+      "tier": {
+        "system": "System Tier"
+      },
+      "log": {
+        "level": "debug"
+      },
+      "mongoDB": {
+        "connectString": "mongodb://oee:oee@localhost:27017",
+        "db": "oee"
+      },
+      "jwt_expiration": 10000,
+      "jwt_encryption": "PleaseChange"
+    },
+    "prod": {
+      "protocol": "https://",
+      "domain": "127.0.0.1",
+      "port": {
+        "user": 6001,
+        "device": 6012,
+        "macdb": 7000,
+        "training": 6017,
+        "email": 6010,
+        "aggregate": 6020,
+        "userportal": 7777  
+      },
+      "name": {
+        "user": "User Manager",
+        "device": "Device Manager",
+        "macdb": "Machines Dashboard",
+        "training": "NILM Training",
+        "email": "Email Manager",
+        "aggregate": "Aggregate Manager",
+        "userportal": "CM User Portal"   
+      },
+      "userRole": {
+        "systemAdmin": "SystemAdmin",
+        "systemUser": "SystemUser",
+        "tenantAdmin": "TenantAdmin",
+        "tenantUser": "TenantUser"
+      },
+      "tier": {
+        "system": "System Tier"
+      },
+      "log": {
+        "level": "debug"
+      },
+      "mongoDB": {
+        "connectString": "mongodb://oee:oee@localhost:27017",
+        "db": "oee"
+      },
+      "jwt_expiration": 10000,
+      "jwt_encryption": "PleaseChange"
+    }
+  }
+}
