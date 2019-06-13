@@ -1,0 +1,15 @@
+[
+    {
+        "script": "user-manager/server.js",
+        "name": "user-manager",
+        "exec_mode": "fork",
+        "watch": false
+    },
+    {
+        "script": "portal-manager/server.js",
+        "name": "portal-manager",
+        "exec_mode": "fork",
+        "watch": false
+    }
+  
+]
