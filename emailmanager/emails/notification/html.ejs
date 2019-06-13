@@ -1,0 +1,23 @@
+<h1>Notification Email</h1>
+<p>Hi
+    <%= name %>,
+</p>
+<p>Dear  <%= name %>, This is the notification e-mail  </p>
+<p>Your Tenant ID for the application is :
+    <b>
+        <%= tenantId%>
+    </b>
+</p>
+
+<p>Please
+    <a href="http://portal.seam-up.com">login</a> to the application to reset your password and start using the application </p>
+<br>
+<br>
+<center>
+    <span style="font-size: 14px">This is an auto generated email. Please do not reply to this mail.</span>
+</center>
+<center>
+    <span style="font-size: 12px">Email Generated @
+        <%= new Date().toLocaleDateString() + ' '+new Date().toLocaleTimeString() %>
+    </span>
+</center>

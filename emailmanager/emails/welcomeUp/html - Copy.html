@@ -1,0 +1,37 @@
+<h1>Welcome</h1>
+<p>Hi
+    <%= name %>,
+</p>
+<p>Congratulations, your account has now been setup for Phantom Connected Machines – currently deployed at your factory. </p>
+<p>User ID:
+    <b>
+        <%= email%>
+    </b>
+</p>
+<p>Password:  :
+    <b>
+        <%= password %>
+    </b>
+</p>
+<p>User Portal Link: 
+    <b>
+        <a href="https://connected-machines.store-monit.com">connected-machines.store-monit.com</a>
+    </b>
+</p>
+<p>Operator Portal Link: 
+    <b>
+        <a href="https://connected-machines-operator.store-monit.com">connected-machines-operator.store-monit.com</a>
+    </b>
+</p>
+<p>You can use the above link and credentials to log in to the web applications from your web browser.</p>
+<p>You can also change this temporary assigned password from the web application.  </p>
+<br>
+<br>
+<center>
+    <span style="font-size: 14px">This is an auto generated email. Please do not reply to this mail.</span>
+</center>
+<center>
+    <span style="font-size: 12px">Email Generated @
+        <%= new Date().toLocaleDateString() + ' '+new Date().toLocaleTimeString() %>
+    </span>
+</center>
