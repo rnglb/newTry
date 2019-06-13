@@ -1,0 +1,10 @@
+http://localhost:5001/v1/user/system
+{
+"email":"chethan.cmk@gmail.com",	
+"password" : "Passw0rd_789",	 
+"firstName":"Chethan",	
+"lastName":"Krishna",	 
+"company":"Bosch"
+}
+
+User Manager : 
