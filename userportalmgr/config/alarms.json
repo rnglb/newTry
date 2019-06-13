@@ -1,0 +1,21 @@
+{
+    "1": "Device Tampered",
+    "2": "Under Voltage detection in Phase R",
+    "3": "Under Voltage detection in Phase Y",
+    "4": "Under Voltage detection in Phase B",
+    "5": "Over Voltage detection in Phase R",
+    "6": "Over Voltage detection in Phase Y",
+    "7": "Over Voltage detection in Phase B",
+    "8": "Load Imbalance in Phase R",
+    "9": "Load Imbalance in Phase Y",
+    "10": "Load Imbalance in Phase B",
+    "11": "Power failure in Phase R",
+    "12": "Power failure in Phase Y",
+    "13": "Power failure in Phase B",
+    "14": "Mains Fail",
+    "15": "DG ON",
+    "16": "Mains ON",
+    "17": "Low Power Factor in Phase R",
+    "18": "Low Power Factor in Phase Y",
+    "19": "Low Power Factor in Phase B"
+}

@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "aws-sdk": "^2.286.2",
+    "body-parser": "^1.18.3",
+    "character-parser": "^3.1.0",
+    "compression": "^1.7.3",
+    "ejs": "*",
+    "email-templates": "^4.0.3",
+    "express": "^4.16.4",
+    "express-swagger-generator": "^1.1.14",
+    "generate-password": "^1.4.0",
+    "moment": "^2.22.2",
+    "mongodb": "^3.1.8",
+    "mongoose": "^5.3.6",
+    "node-cron": "*",
+    "nodemailer": "^4.6.7",
+    "path": "*",
+    "proxy-agent": "^3.0.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "validator": "^9.2.0",
+    "winston": "latest"
+  },
+  "name": "portal-manager",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "version": "0.0.0"
+}
